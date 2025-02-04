@@ -59,7 +59,7 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/faony>ʜᴀᴍᴢᴀ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/PythonBotz>ᴘʏᴛʜᴏɴ ʙᴏᴛᴢ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/AniHorizon>ᴀɴɪ ʜᴏʀɪᴢᴏɴ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/faony>ʜᴀᴍᴢᴀ</a></blockquote></b>"
 
 
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ᴏʜ ᴍʏ {mention},ʏᴏᴜ’ᴠᴇ ᴀʀʀɪᴠᴇᴅ... \n\nʜᴏᴡ ᴅᴇʟɪɢʜᴛғᴜʟ! ɪ’ᴍ ʜᴇʀᴇ ᴛᴏ ɢᴜɪᴅᴇ ʏᴏᴜ, ɢʀᴀᴄᴇғᴜʟʟʏ ᴀɴᴅ ᴇғғᴏʀᴛʟᴇssʟʏ, ʟɪᴋᴇ ᴀ ʙᴜᴛᴛᴇʀғʟʏ’s ᴅᴀɴᴄᴇ.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ᴏʜ ᴍʏ {first},ʏᴏᴜ’ᴠᴇ ᴀʀʀɪᴠᴇᴅ... \n\nʜᴏᴡ ᴅᴇʟɪɢʜᴛғᴜʟ! ɪ’ᴍ ʜᴇʀᴇ ᴛᴏ ɢᴜɪᴅᴇ ʏᴏᴜ, ɢʀᴀᴄᴇғᴜʟʟʏ ᴀɴᴅ ᴇғғᴏʀᴛʟᴇssʟʏ, ʟɪᴋᴇ ᴀ ʙᴜᴛᴛᴇʀғʟʏ’s ᴅᴀɴᴄᴇ.</blockquote></b>")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "6076683960").split()):
