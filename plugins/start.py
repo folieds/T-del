@@ -59,7 +59,8 @@ async def start_command(client: Client, message: Message):
                     f"Congratulations 🎉 Your token has been successfully verified and is valid for {get_exp_time(VERIFY_EXPIRE)}",
                     reply_markup=reply_markup,
                     protect_content=False,
-                    quote=True
+                    quote=True,
+                    message_effect_id=2877332166115709256
                 )
 
             if not verify_status['is_verified']:
